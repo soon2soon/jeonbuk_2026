@@ -9,7 +9,7 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # --- [설정] 브이월드 API 키 ---
-API_KEY = 'E683355C-75BE-303E-8C83-47DA0A3D2834'
+API_KEY = 'YOUR_API_KEY'
 
 def normalize_address(addr):
     """주소를 단일 지번 형식으로 정규화하는 함수"""
